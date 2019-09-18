@@ -20,8 +20,10 @@
              }
              if(is_samet(mb_substr($word,$i,1))){
                  $char = change_samet(mb_substr($word,$i,1),$first,$last);
-             }else{
+             }else if(is_mosavvet(mb_substr($word,$i,1))){
                  $char = change_mosavvet(mb_substr($word,$i,1),$first,$last);
+             }else{
+                 $char = mb_substr($word,$i,1);
              }
              $fa_word = $fa_word.''.$char;
          }
@@ -38,6 +40,15 @@
  
  function is_samet($character){
      $array = ['Б','б','В','в','Г','г','Ғ','ғ','Д','д','Ж','ж','З','з','К','к','Қ','қ','Л','л','М','м','Н','н','П','п','Р','р','С','с','Т','т','Ф','ф','Х','х','Ҳ','ҳ','Ч','ч','Ҷ','ҷ','Ш','ш','Ъ','ъ','Ё','ё','О','о'];
+     if(in_array($character,$array)){
+         return true;
+     }else{
+         return false;
+     }
+ }
+ 
+  function is_mosavvet($character){
+     $array = ['А','а','Е','е','И','и','Ӣ','ӣ','Й','й','У','у','Ӯ','ӯ','Э','э','Ю','ю','Я','я'];
      if(in_array($character,$array)){
          return true;
      }else{
@@ -225,6 +236,7 @@
      $text = str_replace(" вА "," в ",$text);
      $text = str_replace(" Ба "," в ",$text);
      $text = str_replace(" БА "," в ",$text);
+     
      return $text;
  }
  
