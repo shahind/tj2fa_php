@@ -1,4 +1,4 @@
-This Library is designed for Transforming Tajikistan's Cyrylica Farsi to Iran and Afghanistan's Farsi (just changes alphabet)
+This Library is designed for Transforming Tajikistan's Cyrylica Farsi to Iran's and Afghanistan's Farsi (just changes alphabet)
 
 First include tj2fa.php in your project then simply use tj2fa() function: $fa_text = tj2fa($tj_text);
 
