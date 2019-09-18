@@ -122,6 +122,9 @@
      if($char==$array[50] || $char==$array[51]){
          return 'و';
      }
+     if($first && ($char==$array[52] || $char==$array[53])){
+         return 'ا';
+     }
      if($char==$array[52] || $char==$array[53]){
          return 'ی';
      }
@@ -133,7 +136,7 @@
          return 'ا';
      }
      if($char==$array[0] || $char==$array[1]){
-         return 'َ';
+         return  '';
      }
      if($first && ($char==$array[2] || $char==$array[3])){
          return 'ا';
@@ -142,6 +145,9 @@
          return 'ِ';
      }
      if($first && ($char==$array[4] || $char==$array[5])){
+         return 'ای';
+     }
+     if($char==$array[4] || $char==$array[5]){
          return 'ی';
      }
      if($first && ($char==$array[6] || $char==$array[7])){
@@ -162,8 +168,14 @@
      if($first && ($char==$array[16] || $char==$array[17])){
          return 'ا';
      }
+     if($char==$array[16] || $char==$array[17]){
+         return 'یو';
+     }
      if($first && ($char==$array[18] || $char==$array[19])){
-         return 'ا';
+         return 'ی';
+     }
+     if($char==$array[18] || $char==$array[19]){
+         return 'ی';
      }
      if($char==$array[10] || $char==$array[11]){
          return 'ُ';
