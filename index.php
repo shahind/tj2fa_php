@@ -1,7 +1,12 @@
 <?php
 include_once 'tj2fa.php';
 $text = $_POST['tj_text'];
-$fa_text = tj2fa($text);
+$convertLatin2Cyr = false;
+if(isset($_POST['convertLatin2Cyr'])){
+    $convertLatin2Cyr = true;
+}
+
+$fa_text = tj2fa($text,$convertLatin2Cyr);
 ?>
 
 <html>
@@ -12,7 +17,9 @@ $fa_text = tj2fa($text);
             <br>
             <textarea id="tj_text" name="tj_text"><?=$text?></textarea>
             <br>
-            <input type="submit" value="ثبت"/>
+            <input type="checkbox" name="convertLatin2Cyr" value="true"> تبدیل کاراکترهای مشابه لاتین به سیرلیک
+            <br>
+            <input type="submit" value="تبدیل(табдил)"/>
             <br>
             <label>فارسی:</label>
             <br>
