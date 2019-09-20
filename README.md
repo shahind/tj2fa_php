@@ -27,3 +27,9 @@ http://TJ2FA.Shahinsoft.ir
 кд марбӯт ба сафҳаи фавқ дар ӣн гейти қарор гирифта аст
 
 умед аст бо кумак ба ӣн проже дар ҳарчӣ беҳтар шудан он саҳим бошад
+
+
+# Resources
+This Project Uses : 
+Persian Spell Corrector : https://github.com/shahind/Persian-Spell-Corrector-PHP
+Persian Words Database  : https://github.com/shahind/Persian-Words-Database
