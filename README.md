@@ -10,7 +10,7 @@ First include tj2fa.php in your project then simply use tj2fa() function: $fa_te
 
 نسخه ای از این کد در صفحه زیر برای آزمایش در دسترس است:
 
-TJ2FA.Shahinsoft.ir
+http://TJ2FA.Shahinsoft.ir
 
 کد مربوط به صفحه فوق در این گیت قرار گرفته است
 
@@ -22,7 +22,7 @@ TJ2FA.Shahinsoft.ir
 
 нусхае аз ӣн код дар сафҳаи зер барои озмоиш дар дастрас аст :
 
-TJ2FA.Shahinsoft.ir
+http://TJ2FA.Shahinsoft.ir
 
 кд марбӯт ба сафҳаи фавқ дар ӣн гейти қарор гирифта аст
 
