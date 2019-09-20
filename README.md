@@ -1,4 +1,4 @@
-#Tajikistan Cyrillic Persian Alphabet to Iran and Afghanistan's Persian(Farsi) Alphabet Transform
+# Tajikistan Cyrillic Persian Alphabet to Iran and Afghanistan's Persian(Farsi) Alphabet Transform
 
 This Library is designed for Transforming Tajikistan's Cyrylica Farsi to Iran's and Afghanistan's Farsi (just changes alphabet)
 
